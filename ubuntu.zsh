@@ -123,7 +123,7 @@ sudo sed -i 's/no-cgroups = true/no-cgroups = false/' /etc/nvidia-container-runt
 
 # Install NVM and the latest LTS version of Node.js
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && nvm install --lts
-
+npm install -g npm-check-updates
 
 sudo apt-get install btop
 sudo apt install fontconfig
